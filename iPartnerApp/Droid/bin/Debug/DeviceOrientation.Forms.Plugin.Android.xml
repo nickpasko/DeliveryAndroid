@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DeviceOrientation.Forms.Plugin.Android</name>
+    </assembly>
+    <members>
+        <member name="T:DeviceOrientation.Forms.Plugin.Droid.DeviceOrientationImplementation">
+            <summary>
+            DeviceOrientation Implementation
+            </summary>
+        </member>
+        <member name="M:DeviceOrientation.Forms.Plugin.Droid.DeviceOrientationImplementation.Init">
+            <summary>
+            Used for registration with dependency service
+            </summary>
+        </member>
+        <member name="M:DeviceOrientation.Forms.Plugin.Droid.DeviceOrientationImplementation.NotifyOrientationChange(Android.Content.Res.Configuration)">
+            <summary>
+            Send orientation change message through MessagingCenter
+            </summary>
+            <param name="newConfig">New configuration</param>
+        </member>
+        <member name="M:DeviceOrientation.Forms.Plugin.Droid.DeviceOrientationImplementation.GetOrientation">
+            <summary>
+            Gets the orientation.
+            </summary>
+            <returns>The orientation.</returns>
+        </member>
+    </members>
+</doc>

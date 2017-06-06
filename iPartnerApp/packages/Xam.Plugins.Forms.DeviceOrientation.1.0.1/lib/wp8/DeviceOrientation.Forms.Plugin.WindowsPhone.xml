@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DeviceOrientation.Forms.Plugin.WindowsPhone</name>
+    </assembly>
+    <members>
+        <member name="T:DeviceOrientation.Forms.Plugin.WindowsPhone.DeviceOrientationImplementation">
+            <summary>
+            DeviceOrientation Implementation
+            </summary>
+        </member>
+        <member name="M:DeviceOrientation.Forms.Plugin.WindowsPhone.DeviceOrientationImplementation.Init">
+            <summary>
+            Used for registration with dependency service
+            </summary>
+        </member>
+        <member name="M:DeviceOrientation.Forms.Plugin.WindowsPhone.DeviceOrientationImplementation.NotifyOrientationChange(Microsoft.Phone.Controls.OrientationChangedEventArgs)">
+            <summary>
+            Send orientation change message through MessagingCenter
+            </summary>
+            <param name="e">Orientation changed event args</param>
+        </member>
+        <member name="M:DeviceOrientation.Forms.Plugin.WindowsPhone.DeviceOrientationImplementation.GetOrientation">
+            <summary>
+            Gets the orientation.
+            </summary>
+            <returns>The orientation.</returns>
+        </member>
+    </members>
+</doc>

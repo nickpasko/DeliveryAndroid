@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DeviceOrientation.Forms.Plugin.Abstractions</name>
+    </assembly>
+    <members>
+        <member name="T:DeviceOrientation.Forms.Plugin.Abstractions.IDeviceOrientation">
+            <summary>
+            DeviceOrientation Interface
+            </summary>
+        </member>
+        <member name="M:DeviceOrientation.Forms.Plugin.Abstractions.IDeviceOrientation.GetOrientation">
+            <summary>
+            Gets the orientation.
+            </summary>
+            <returns>The orientation.</returns>
+        </member>
+        <member name="T:DeviceOrientation.Forms.Plugin.Abstractions.DeviceOrientations">
+            <summary>
+            Device orientations.
+            </summary>
+        </member>
+        <member name="F:DeviceOrientation.Forms.Plugin.Abstractions.DeviceOrientations.Undefined">
+            <summary>
+            Undefined
+            </summary>
+        </member>
+        <member name="F:DeviceOrientation.Forms.Plugin.Abstractions.DeviceOrientations.Landscape">
+            <summary>
+            The landscape.
+            </summary>
+        </member>
+        <member name="F:DeviceOrientation.Forms.Plugin.Abstractions.DeviceOrientations.Portrait">
+            <summary>
+            The portrait.
+            </summary>
+        </member>
+        <member name="T:DeviceOrientation.Forms.Plugin.Abstractions.DeviceOrientationChangeMessage">
+            <summary>
+            Device orientation change message.
+            </summary>
+        </member>
+        <member name="P:DeviceOrientation.Forms.Plugin.Abstractions.DeviceOrientationChangeMessage.Orientation">
+            <summary>
+            Gets or sets the orientation.
+            </summary>
+            <value>The orientation.</value>
+        </member>
+        <member name="P:DeviceOrientation.Forms.Plugin.Abstractions.DeviceOrientationChangeMessage.MessageId">
+            <summary>
+            Gets the message identifier.
+            </summary>
+            <value>The message identifier.</value>
+        </member>
+    </members>
+</doc>

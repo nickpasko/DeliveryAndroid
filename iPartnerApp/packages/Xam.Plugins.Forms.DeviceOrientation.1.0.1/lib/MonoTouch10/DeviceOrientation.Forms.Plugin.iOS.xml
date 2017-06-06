@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DeviceOrientation.Forms.Plugin.iOS</name>
+    </assembly>
+    <members>
+        <member name="T:DeviceOrientation.Forms.Plugin.iOS.DeviceOrientationImplementation">
+            <summary>
+            DeviceOrientation Implementation
+            </summary>
+        </member>
+        <member name="M:DeviceOrientation.Forms.Plugin.iOS.DeviceOrientationImplementation.Init">
+            <summary>
+            Used for registration with dependency service
+            </summary>
+        </member>
+        <member name="M:DeviceOrientation.Forms.Plugin.iOS.DeviceOrientationImplementation.DeviceOrientationDidChange(MonoTouch.Foundation.NSNotification)">
+            <summary>
+            Devices the orientation did change.
+            </summary>
+            <param name="notification">Notification.</param>
+        </member>
+        <member name="M:DeviceOrientation.Forms.Plugin.iOS.DeviceOrientationImplementation.GetOrientation">
+            <summary>
+            Gets the orientation.
+            </summary>
+            <returns>The orientation.</returns>
+        </member>
+    </members>
+</doc>

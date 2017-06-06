@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="iPartnerApp.Views.AlertWindow">
+	<ContentPage.Content>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="auto"/>
+				<RowDefinition Height="*"/>
+				<RowDefinition Height="auto"/>
+				<RowDefinition Height="auto"/>
+			</Grid.RowDefinitions>
+			<Label x:Name="Header" HorizontalOptions="Center"/>
+			<Image x:Name="Icon" HorizontalOptions="Center" VerticalOptions="Center" Grid.Row="1"/>
+			<Label x:Name="Message" HorizontalOptions="Center" Grid.Row="2"/>
+			<Grid Grid.Row="3">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition/>
+					<ColumnDefinition/>
+				</Grid.ColumnDefinitions>
+					<Button Text="Retry" x:Name="Retry" />
+					<Button Text="Cancel" x:Name="Cancel" Grid.Column="1"/>
+			</Grid>
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>
